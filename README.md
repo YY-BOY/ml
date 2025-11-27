@@ -1,4 +1,4 @@
-# 🎭 Meme Dubber
+# 😜 Meme Dubber
 
 A web application that uses AI to extract text from meme images and generate audio dubbing using Google Gemini API and text-to-speech engines.
 
@@ -16,7 +16,7 @@ A web application that uses AI to extract text from meme images and generate aud
 
 ## Prerequisites
 
-- Python 3.8 or higher (3.12 recommended)
+- Python 3.8 or higher (3.10 recommended)
 - Anaconda or Miniconda installed (recommended for environment management)
 - Google API key for Gemini API ([Get one here](https://aistudio.google.com/app/apikey))
 - Internet connection (required for gTTS and Gemini API)
@@ -32,7 +32,7 @@ A web application that uses AI to extract text from meme images and generate aud
 
 2. **Create and activate conda environment**:
    ```bash
-   conda create -n ml python=3.12
+   conda create -n ml python=3.10
    conda activate ml
    ```
 
