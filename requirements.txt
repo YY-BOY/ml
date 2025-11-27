@@ -1,5 +1,5 @@
 # Core dependencies
-gradio>=4.0.0
+gradio==4.44.0
 python-dotenv>=1.0.0
 
 # Google Gemini API

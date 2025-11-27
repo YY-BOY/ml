@@ -74,3 +74,6 @@ Thumbs.db
 # Gradio cache
 gradio_cached_examples/
 flagged/
+
+# Asset folder
+asset/

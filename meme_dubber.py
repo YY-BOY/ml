@@ -93,7 +93,7 @@ def extract_text_from_meme(image):
         print(f"Gemini response: {response.text}")  # Add debug info
         result = json.loads(response.text)
         meme_text = result.get('text', '')
-        lang_code = result.get('language', 'en')
+        lang_code = result.get('language_code', 'en')
         
         # 確保返回有效的文本
         if not meme_text or meme_text.strip() == "":
@@ -257,7 +257,7 @@ def create_gradio_interface():
     with gr.Blocks(title="Meme Dubber", theme=gr.themes.Soft()) as demo:
         gr.Markdown(
             """
-            # 🎭 Meme Dubber
+            # 😜 Meme Dubber
 
             Upload a meme image and generate audio dubbing using AI!
 
